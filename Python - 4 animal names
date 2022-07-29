@@ -2,9 +2,9 @@ numAnimals = 0
 allAnimals = ""
 
 while numAnimals < 4:
-    animalName = input("Enter an animal name or e to quit: ")
-    if animalName.lower() == "e":
-        print("no animals")
+    animalName = input("Enter an animal name or q to quit: ")
+    if animalName.lower() == "q":
+        print("exiting program now")
         break
     elif animalName.isalpha():
         numAnimals +=1
